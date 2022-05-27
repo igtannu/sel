@@ -1,0 +1,7 @@
+com\Selenium_assignment\pages\productsearch.class
+com\Selenium_assignment\utils\Screenshots.class
+com\Selenium_assignment\pages\HomePage.class
+com\Selenium_assignment\pages\ChooseLanguage.class
+com\Selenium_assignment\pages\RegisterPage.class
+com\Selenium_assignment\pages\Footerpage.class
+com\Selenium_assignment\pages\LoginPage.class

@@ -1,0 +1,7 @@
+com\Selenium_assignment\tests\RegisterPageTest.class
+com\Selenium_assignment\tests\FooterPageTest.class
+com\Selenium_assignment\tests\productsearchTest.class
+com\Selenium_assignment\tests\BaseTest.class
+com\Selenium_assignment\tests\LoginPageTest.class
+com\Selenium_assignment\tests\HomePageTest.class
+com\Selenium_assignment\tests\ChooseLanguageTest.class

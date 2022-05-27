@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Selenium_assignment.tests.HomePageTest">
+        <methods>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="openurl"/>
+          <include name="endTest"/>
+          <include name="closeBrowser"/>
+          <include name="chooseFashion"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.HomePageTest -->
+      <class name="com.Selenium_assignment.tests.productsearchTest">
+        <methods>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="SearchProductfootball"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="openurl"/>
+          <include name="endTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.productsearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
