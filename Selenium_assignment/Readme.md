@@ -1,6 +1,6 @@
 # Amazon Website Automation Suite
 
-#To run Amazon Automated Suite from command Line in the project Folder
+#To run Amazon Automated Suite from command Liness in the project Folder
 
 
 ## Packages Description

@@ -9,13 +9,55 @@
           <include name="initializeWebDriver"/>
           <include name="attachScreenshot"/>
           <include name="setExtent"/>
+          <include name="ClickNextSlide"/>
+          <include name="endReport"/>
+          <include name="openurl"/>
+          <include name="endTest"/>
+          <include name="Dropdown"/>
+          <include name="closeBrowser"/>
+          <include name="clickReturn"/>
+          <include name="chooseFashion"/>
+          <include name="testAmazonLogo"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.HomePageTest -->
+      <class name="com.Selenium_assignment.tests.ChooseLanguageTest">
+        <methods>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="ChooseHindiLanguage"/>
+          <include name="endReport"/>
+          <include name="ChooseEnglishLanguage"/>
+          <include name="openurl"/>
+          <include name="endTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.ChooseLanguageTest -->
+      <class name="com.Selenium_assignment.tests.FooterPageTest">
+        <methods>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="clickfb"/>
+          <include name="setExtent"/>
           <include name="endReport"/>
           <include name="openurl"/>
           <include name="endTest"/>
           <include name="closeBrowser"/>
-          <include name="chooseFashion"/>
+          <include name="clickhelp"/>
         </methods>
-      </class> <!-- com.Selenium_assignment.tests.HomePageTest -->
+      </class> <!-- com.Selenium_assignment.tests.FooterPageTest -->
+      <class name="com.Selenium_assignment.tests.RegisterPageTest">
+        <methods>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="CreateNewuser"/>
+          <include name="openurl"/>
+          <include name="endTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.RegisterPageTest -->
       <class name="com.Selenium_assignment.tests.productsearchTest">
         <methods>
           <include name="initializeWebDriver"/>
@@ -26,8 +68,25 @@
           <include name="openurl"/>
           <include name="endTest"/>
           <include name="closeBrowser"/>
+          <include name="SearchProductiphone"/>
         </methods>
       </class> <!-- com.Selenium_assignment.tests.productsearchTest -->
+      <class name="com.Selenium_assignment.tests.LoginPageTest">
+        <methods>
+          <include name="LogininValidPassword"/>
+          <include name="initializeWebDriver"/>
+          <include name="attachScreenshot"/>
+          <include name="Logblankuser"/>
+          <include name="Loginvalidmailid"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="LoginValidmailid"/>
+          <include name="openurl"/>
+          <include name="endTest"/>
+          <include name="closeBrowser"/>
+          <include name="Loginblankpass"/>
+        </methods>
+      </class> <!-- com.Selenium_assignment.tests.LoginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
